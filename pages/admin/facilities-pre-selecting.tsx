@@ -24,7 +24,7 @@ function Elements() {
       <SimpleHeader name="LOLA Kindergarten Ampang Jaya" />
       <Container className="mt--6" fluid>
         <Card className="mb-4">
-        <CardHeader className="d-flex align-items-center justify-content-between">
+          <CardHeader className="d-flex align-items-center justify-content-between">
             <h3>Profile</h3>
             <div className="d-flex align-items-center">
               <h3>JKM Certified</h3>
@@ -82,7 +82,7 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Outdoor Playground
+                      Outdoor Playground
                     </label>
                   </div>
                   <div className="custom-control custom-checkbox mb-3">
@@ -90,7 +90,7 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Indoor Playroom/Area
+                      Indoor Playroom/Area
                     </label>
                   </div>
                   <div className="custom-control custom-checkbox mb-3">
@@ -98,7 +98,7 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Classrooms
+                      Classrooms
                     </label>
                   </div>
                   <div className="custom-control custom-checkbox mb-3">
@@ -106,7 +106,7 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Washroom & Changing
+                      Washroom & Changing
                     </label>
                   </div>
                   <div className="custom-control custom-checkbox mb-3">
@@ -114,17 +114,17 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Fire Staircase
+                      Fire Staircase
                     </label>
                   </div>
                 </Col>
                 <Col md="6">
-                <div className="custom-control custom-checkbox mb-3">
+                  <div className="custom-control custom-checkbox mb-3">
                     <Input
                       type="checkbox"
                     />
                     <label>
-                    Computer Lab
+                      Computer Lab
                     </label>
                   </div>
                   <div className="custom-control custom-checkbox mb-3">
@@ -132,7 +132,7 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Dining Area
+                      Dining Area
                     </label>
                   </div>
                   <div className="custom-control custom-checkbox mb-3">
@@ -140,7 +140,7 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Ablution Area
+                      Ablution Area
                     </label>
                   </div>
                   <div className="custom-control custom-checkbox mb-3">
@@ -148,7 +148,7 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Creative Area
+                      Creative Area
                     </label>
                   </div>
                   <div className="custom-control custom-checkbox mb-3">
@@ -156,12 +156,22 @@ function Elements() {
                       type="checkbox"
                     />
                     <label>
-                    Sleeping Area & Room
+                      Sleeping Area & Room
                     </label>
                   </div>
                 </Col>
               </Row>
             </Form>
+          </CardBody>
+          <CardBody>
+            <div className="text-center">
+              <Button size="lg" type="button">
+                Confirm
+              </Button>
+              <Button size="lg" type="button">
+                Cancel
+              </Button>
+            </div>
           </CardBody>
         </Card>
 

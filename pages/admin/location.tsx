@@ -23,8 +23,8 @@ function Elements() {
     <>
       <SimpleHeader name="LOLA Kindergarten Ampang Jaya" />
       <Container className="mt--6" fluid>
-      <Card className="mb-4">
-      <CardHeader className="d-flex align-items-center justify-content-between">
+        <Card className="mb-4">
+          <CardHeader className="d-flex align-items-center justify-content-between">
             <h3>Profile</h3>
             <div className="d-flex align-items-center">
               <h3>JKM Certified</h3>
@@ -63,6 +63,16 @@ function Elements() {
           <CardHeader>
             <h3 className="mb-0">Location</h3>
           </CardHeader>
+          <CardBody>
+            <div className="text-center">
+              <Button size="lg" type="button">
+                Confirm
+              </Button>
+              <Button size="lg" type="button">
+                Cancel
+              </Button>
+            </div>
+          </CardBody>
         </Card>
         <Card className="mb-4">
           <CardHeader>

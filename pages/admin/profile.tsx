@@ -567,12 +567,14 @@ function Elements() {
             </Row>
           </CardBody>
           <CardBody>
-            <Button position="center" color="#E94080" size="lg" type="button">
+            <div className="text-center">
+            <Button size="lg" type="button">
               Confirm
             </Button>
-            <Button color="secondary" size="lg" type="button">
+            <Button size="lg" type="button">
               Cancel
             </Button>
+            </div>
           </CardBody>
         </Card>
         <Card className="mb-4">
