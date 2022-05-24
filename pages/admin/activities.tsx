@@ -24,7 +24,7 @@ function Elements() {
       <SimpleHeader name="LOLA Kindergarten Ampang Jaya" />
       <Container className="mt--6" fluid>
         <Card className="mb-4">
-        <CardHeader className="d-flex align-items-center justify-content-between">
+          <CardHeader className="d-flex align-items-center justify-content-between">
             <h3>Profile</h3>
             <div className="d-flex align-items-center">
               <h3>JKM Certified</h3>
@@ -99,12 +99,16 @@ function Elements() {
             <Button text-color="#E94080" block color="no color" size="lg" type="button">
               + Add More Activity
             </Button>
-            <Button position="center" color="#E94080" size="lg" type="button">
-              Confirm
-            </Button>
-            <Button color="secondary" size="lg" type="button">
-              Cancel
-            </Button>
+          </CardBody>
+          <CardBody>
+            <div className="text-center">
+              <Button size="lg" type="button">
+                Confirm
+              </Button>
+              <Button size="lg" type="button">
+                Cancel
+              </Button>
+            </div>
           </CardBody>
         </Card>
         <Card className="mb-4">
