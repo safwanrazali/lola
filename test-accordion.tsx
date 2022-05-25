@@ -1,8 +1,4 @@
 import React from "react";
-import { Accordion } from "react-bootstrap";
-import AccordionBody from "react-bootstrap/esm/AccordionBody";
-import AccordionHeader from "react-bootstrap/esm/AccordionHeader";
-import AccordionItem from "react-bootstrap/esm/AccordionItem";
 // reactstrap components
 import {
   Button,
@@ -26,41 +22,92 @@ function Elements() {
   return (
     <>
       <SimpleHeader name="LOLA Kindergarten Ampang Jaya" />
-      <div>
-        <Accordion
-          open="1"
-          toggle={function noRefCheck() { }}
-        >
-          <Container className="mt--6" fluid>
-            <AccordionItem eventKey={""}>
-              <Card className="mb-4">
-                <AccordionHeader targetId="1">
-                  <CardHeader className="d-flex align-items-center justify-content-between">
-                    <h3>Profile</h3>
-                    <div className="d-flex align-items-center">
-                      <h3>JKM Certified</h3>
-                      <label className="custom-toggle custom-toggle">
-                        <input defaultChecked type="checkbox" />
-                        <span
-                          className="custom-toggle-slider rounded-circle"
-                          data-label-off=""
-                          data-label-on=""
-                        />
-                      </label>
-                    </div>
+      <div class="accordion-1">
+        <Container className="mt--6" fluid>
+          <div class="Row">
+            <div class="Col-md-12 ml-auto">
+              <div class="accordion my-3" id="accordionExample">
+                <Card className="mb-4">
+                  <button class="btn btn-link w-100 text-primary text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <CardHeader className="d-flex align-items-center justify-content-between">
+                      <h3>Profile</h3>
+                      <div className="d-flex align-items-center">
+                        <h3>JKM Certified</h3>
+                        <label className="custom-toggle custom-toggle">
+                          <input defaultChecked type="checkbox" />
+                          <span
+                            className="custom-toggle-slider rounded-circle"
+                            data-label-off=""
+                            data-label-on=""
+                          />
+                        </label>
+                      </div>
+                    </CardHeader>
+                  </button>
+                </Card>
+                <Card className="mb-4">
+                  <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <CardHeader>
+                      <h3 className="mb-0">Activities</h3>
+                    </CardHeader>
+                  </button>
+                </Card>
+                <Card className="mb-4">
+                  <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseThree">
+                    <CardHeader>
+                      <h3 className="mb-0">Class</h3>
+                    </CardHeader>
+                  </button>
+                </Card>
+                <Card className="mb-4">
+                  <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseFour">
+                    <CardHeader>
+                      <h3 className="mb-0">Policy</h3>
+                    </CardHeader>
+                  </button>
+                </Card>
+                <Card className="mb-4">
+                  <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseFive">
+                    <CardHeader>
+                      <h3 className="mb-0">Schedule</h3>
+                    </CardHeader>
+                  </button>
+                </Card>
+                <Card className="mb-4">
+                  <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseSix">
+                    <CardHeader>
+                      <h3 className="mb-0">Location</h3>
+                    </CardHeader>
+                  </button>
+                  <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <CardBody>
+                      <div className="text-center">
+                        <Button size="lg" type="button">
+                          Confirm
+                        </Button>
+                        <Button size="lg" type="button">
+                          Cancel
+                        </Button>
+                      </div>
+                    </CardBody>
+                  </div>
+                </Card>
+                <Card className="mb-4">
+                <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseSeven">
+                  <CardHeader>
+                    <h3 className="mb-0">Facilities</h3>
                   </CardHeader>
-                </AccordionHeader>
-                <AccordionBody accordionId="1">
-                  TESTING ACCORDION
-                </AccordionBody>
-              </Card>
-            </AccordionItem>
-          </Container>
-        </Accordion>
+                  </button>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </Container>
       </div>
-      {"}"}
-
-      Elements.pageLayout = Admin;
-
-      export default Elements;</>)
+    </>
+  );
 }
+
+Elements.pageLayout = Admin;
+
+export default Elements;
