@@ -80,8 +80,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="07:30AM"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -91,8 +93,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="06:30PM"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -113,8 +117,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -124,8 +130,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -146,8 +154,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -157,8 +167,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col>
                 <Input
@@ -192,8 +204,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -203,8 +217,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -225,8 +241,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -236,8 +254,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -258,8 +278,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -269,8 +291,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col>
                 <Input
@@ -304,8 +328,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -315,8 +341,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -337,8 +365,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -348,8 +378,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -370,8 +402,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -381,8 +415,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col>
                 <Input
@@ -416,8 +452,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -427,8 +465,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -449,8 +489,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -460,8 +502,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -482,8 +526,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -493,8 +539,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col>
                 <Input
@@ -528,8 +576,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -539,8 +589,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -561,8 +613,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -572,8 +626,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -594,8 +650,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -605,8 +663,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col>
                 <Input
@@ -640,8 +700,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -651,8 +713,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -673,8 +737,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -684,8 +750,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="6">
                 <label
@@ -706,8 +774,10 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="Please select open time"
-                />
+                          defaultValue="07:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col className="mb-3" md="3">
                 <label
@@ -717,8 +787,10 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="Please select close time"
-                />
+                          defaultValue="18:30:00"
+                          id="example-time-input"
+                          type="time"
+                        />
               </Col>
               <Col>
                 <Input

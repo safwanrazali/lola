@@ -68,12 +68,8 @@ function Elements() {
           <CardHeader>
             <h3 className="mb-0">Facilities</h3>
           </CardHeader>
-        </Card>
-        <Card>
-          <CardHeader>
-            <h4 className="mb-0">Facilities Form</h4>
-          </CardHeader>
           <CardBody>
+            <h4 className="mb-0">Facilities Form</h4>
             <Form>
               <Row>
                 <Col md="6">

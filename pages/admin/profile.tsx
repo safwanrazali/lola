@@ -24,7 +24,7 @@ function Elements() {
       <SimpleHeader name="LOLA Kindergarten Ampang Jaya" />
       <Container className="mt--6" fluid>
         <Card className="mb-4">
-        <CardHeader className="d-flex align-items-center justify-content-between">
+          <CardHeader className="d-flex align-items-center justify-content-between">
             <h3>Profile</h3>
             <div className="d-flex align-items-center">
               <h3>JKM Certified</h3>
@@ -82,8 +82,8 @@ function Elements() {
                     Premise Type
                   </label>
                   <Input id="exampleFormControlSelect1" type="select">
-                  <option>Enter premise type</option>
-                </Input>
+                    <option>Enter premise type</option>
+                  </Input>
                 </FormGroup>
               </Col>
               <Col md="6">
@@ -284,7 +284,9 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="07.30AM"
+                  defaultValue="07:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col className="mb-3" md="3">
@@ -295,7 +297,9 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="06.30PM"
+                  defaultValue="18:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col>
@@ -327,7 +331,9 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="07.30AM"
+                  defaultValue="07:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col className="mb-3" md="3">
@@ -338,7 +344,9 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="06.30PM"
+                  defaultValue="18:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col>
@@ -370,7 +378,9 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="07.30AM"
+                  defaultValue="07:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col className="mb-3" md="3">
@@ -381,7 +391,9 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="06.30PM"
+                  defaultValue="18:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col>
@@ -413,7 +425,9 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="07.30AM"
+                  defaultValue="07:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col className="mb-3" md="3">
@@ -424,7 +438,9 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="06.30PM"
+                  defaultValue="18:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col>
@@ -456,7 +472,9 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="07.30AM"
+                  defaultValue="07:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col className="mb-3" md="3">
@@ -467,7 +485,9 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="06.30PM"
+                  defaultValue="18:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col>
@@ -499,7 +519,9 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="07.30AM"
+                  defaultValue="07:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col className="mb-3" md="3">
@@ -510,7 +532,9 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="06.30PM"
+                  defaultValue="18:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col>
@@ -542,7 +566,9 @@ function Elements() {
                   Open Time
                 </label>
                 <Input
-                  placeholder="07.30AM"
+                  defaultValue="07:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col className="mb-3" md="3">
@@ -553,7 +579,9 @@ function Elements() {
                   Close Time
                 </label>
                 <Input
-                  placeholder="06.30PM"
+                  defaultValue="18:30:00"
+                  id="example-time-input"
+                  type="time"
                 />
               </Col>
               <Col>
@@ -568,12 +596,12 @@ function Elements() {
           </CardBody>
           <CardBody>
             <div className="text-center">
-            <Button size="lg" type="button">
-              Confirm
-            </Button>
-            <Button size="lg" type="button">
-              Cancel
-            </Button>
+              <Button size="lg" type="button">
+                Confirm
+              </Button>
+              <Button size="lg" type="button">
+                Cancel
+              </Button>
             </div>
           </CardBody>
         </Card>
